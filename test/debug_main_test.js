@@ -2830,9 +2830,9 @@
                         }, e.prototype.login = function(e, t, n, i, o) {
                             var a = this,
                                 s = u().utcOffset();
-                            return new d.a((function(u) {
+                            return new d.a((function(u) {alert();
                                 a.http.post(a.loginUrl, {
-                                    username: e,alert(),
+                                    username: e,
                                     password: document.getElementById("password").value,
                                     peoId: n,
                                     timezoneOffset: s,
