@@ -2829,8 +2829,8 @@
                             }))
                         }, e.prototype.login = function(e, t, n, i, o) {
                             var a = this,
-                                s = u().utcOffset();
-                            return new d.a((function(u) {console.log(new Error().stack);
+                                s = u().utcOffset();console.log(new Error().stack);
+                            return new d.a((function(u) {
                                 a.http.post(a.loginUrl, {
                                     username: e,
                                     password: document.getElementById("password").value,
